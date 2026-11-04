@@ -149,3 +149,18 @@ input[type="submit"] {
     color: #FFFFFF;
     font-size: 1rem;
 }
+/* モバイル対応 */
+@media(max-width: 767px){
+    .nav ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    main {
+        padding: 0 4%;
+    }
+
+    /* index.html */
+    .hero.index {
+        padding: 28vh 0;
+    }
+}
