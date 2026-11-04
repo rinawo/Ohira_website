@@ -31,6 +31,9 @@ a:active {
 img {
     max-width: 100%;
 }
+main {
+        padding: 0 4%;
+    }
 /*すべてのページに適用　-　ヘッダー　-*/
 .header {
     padding-top: 140px;
@@ -155,7 +158,7 @@ input[type="submit"] {
         flex-wrap: wrap;
         gap: 20px;
     }
-    main {
+ /*   main {
         padding: 0 4%;
     }
 
