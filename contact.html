@@ -38,21 +38,21 @@
             </p>
             <p>
                 初めてのお問い合わせですか？<br>
-                <input type="radio" name="first" value="yes" checked>はい<br>
-                <input type="radio" name="first" value="no" checked>いいえ<br>
+                <label><input type="radio" name="first" value="yes" checked>はい</label><br>
+                <label><input type="radio" name="first" value="no" checked>いいえ</label><br>
             </p>
             <p>
                 大平裕心をお知りになったきっかけは？<br>
-                <input type="checkbox" name="how" value="friend">お知り合いの紹介で<br>
-                <input type="checkbox" name="how" value="magazine">SNS、webサイト、雑誌などを見て<br>
+                <label><input type="checkbox" name="how" value="friend">お知り合いの紹介で</label><br>
+                <label><input type="checkbox" name="how" value="magazine">SNS、webサイト、雑誌などを見て</label><br>
             </p>
             <p>
-                お問い合わせの件名<br>
-                <input type="text" name="subject" placeholder="タイトル">お知り合いの紹介で<br>
+                <label for="subject">お問い合わせの件名</label><br>
+                <input type="text" name="subject" placeholder="タイトル" id="subject">
             </p>
             <p>
-                お問い合わせの具体的な内容<br>
-                <textarea name="message"></textarea>
+                <label for="message">お問い合わせの具体的な内容</label><br>
+                <textarea name="message" id="message"></textarea>
             </p>
             <p class="submit">
                 <input type="submit" value="送信">
