@@ -166,7 +166,7 @@ input[type="submit"] {
         text-align: center;
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
-    .hero,
+/*    .hero,
     .hero.index,
     .hero.profile,
     ,hero.activity,
@@ -175,7 +175,7 @@ input[type="submit"] {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; 
-    } 
+    } */
     main {
         padding: 0 4%;
     } 
