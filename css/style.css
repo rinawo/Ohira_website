@@ -74,7 +74,7 @@ main {
     text-align: center;
 }
 .hero.index {
-    padding: 287px 0;
+    /* padding: 287px 0; */
     background-image: url(../images/umihed.png);
 }
 .hero.profile {
