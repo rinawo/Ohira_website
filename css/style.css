@@ -171,11 +171,8 @@ input[type="submit"] {
     main {
         padding: 0 4%;
     }
+  /* index.html  */
     .hero.index {
         padding: 28vh 0; /* ここでIndexの写真サイズだけ個別に調整できます
-    /* index.html */
-   .hero.index {
-        padding: 28vh 0;
-    } 
 }
 }
