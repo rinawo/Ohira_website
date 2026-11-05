@@ -163,7 +163,7 @@ input[type="submit"] {
 　　 }
     .nav li {
         width: 45%; 
-        text-algin: center;
+        text-align: center;
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
     .hero {
