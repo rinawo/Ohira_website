@@ -172,7 +172,12 @@ input[type="submit"] {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    } .hero.profile,
+    .hero.activity,
+    .hero.contact {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
     main {
         padding: 0 4%;
