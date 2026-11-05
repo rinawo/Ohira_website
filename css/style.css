@@ -166,13 +166,13 @@ input[type="submit"] {
         text-align: center;
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
-    .hero {
+/*    .hero {
         padding: 80px 0; /* Indexの高さに合わせる場合はここに合わせる（または80pxなど） */
-        background-size: contain; /* 写真全体が途切れず写るようにする */
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  /*      background-size: contain; /* 写真全体が途切れず写るようにする */
+  /*      background-repeat: no-repeat;
+        background-position: center; 
+    } 
     main {
         padding: 0 4%;
-    }
+    } */ 
 }
