@@ -158,16 +158,17 @@ input[type="submit"] {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
+        gap: 10px 20px;
         padding: 0;
-    }
+    ｝
+    .nav li {
+        width: 45%; 
+        text-algin: center;
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
     .hero {
         padding: 80px 0; /* この数字を小さくすると写真の高さが低くなります */
     ｝
-    .nav li {
-        width: 45%; 
- /*   main {
+    main {
         padding: 0 4%;
     }
 
