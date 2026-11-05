@@ -167,13 +167,12 @@ input[type="submit"] {
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
     .hero {
-        padding: 80px 0; /* この数字を小さくすると写真の高さが低くなります */
+        padding: 28vh 0; /* Indexの高さに合わせる場合はここに合わせる（または80pxなど） */
+        background-size: contain; /* 写真全体が途切れず写るようにする */
+        background-repeat: no-repeat;
+        background-position: center;
     }
     main {
         padding: 0 4%;
     }
-  /* index.html  */
-    .hero.index {
-        padding: 28vh 0; /* ここでIndexの写真サイズだけ個別に調整できます
-}
 }
