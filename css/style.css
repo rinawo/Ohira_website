@@ -163,12 +163,7 @@ input[type="submit"] {
     }
 
     /* index.html */
-    .hero.index {
+/*   .hero.index {
         padding: 28vh 0;
-    }
-}
-/* 記事内やロゴの画像が大きくなりすぎないようにする制限 */
-main img {
-    max-width: 100%;
-    height: auto;
+    }  */
 }
