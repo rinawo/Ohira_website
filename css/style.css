@@ -153,7 +153,7 @@ input[type="submit"] {
     font-size: 1rem;
 }
 /* モバイル対応 */
-@media(max-width: 767px){
+/*@media(max-width: 767px){
     .nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -167,12 +167,12 @@ input[type="submit"] {
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
     .hero {
-        padding: 80px 0; /* Indexの高さに合わせる場合はここに合わせる（または80pxなど） */
-        background-size: contain; /* 写真全体が途切れず写るようにする */
+  /*      padding: 80px 0; 
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center; 
     } 
     main {
         padding: 0 4%;
     } 
-}
+} */
