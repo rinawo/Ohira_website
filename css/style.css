@@ -164,10 +164,11 @@ input[type="submit"] {
     .nav li {
         width: 45%; 
         text-algin: center;
+    }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
     .hero {
         padding: 80px 0; /* この数字を小さくすると写真の高さが低くなります */
- }
+    }
     main {
         padding: 0 4%;
     }
