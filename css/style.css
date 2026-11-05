@@ -153,7 +153,7 @@ input[type="submit"] {
     font-size: 1rem;
 }
 /* モバイル対応 */
-/*@media(max-width: 767px){
+@media(max-width: 767px){
     .nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -166,7 +166,11 @@ input[type="submit"] {
         text-align: center;
     }
         /* スマホ版のときだけ、全ページの背景画像の高さをここで一括調整する */
-/*    .hero {
+    .hero,
+    .hero.index,
+    .hero.profile,
+    ,hero.activity,
+    .hero.contact {
         padding: 80px 0; 
         background-size: contain;
         background-repeat: no-repeat;
@@ -175,4 +179,4 @@ input[type="submit"] {
     main {
         padding: 0 4%;
     } 
-} */
+} 
